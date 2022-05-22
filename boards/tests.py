@@ -1,6 +1,6 @@
 from django.urls import reverse, resolve
 from django.test import TestCase
-from .views import home
+from .views import home, board_topics
 from .models import Board
 
 class HomeTests(TestCase):
